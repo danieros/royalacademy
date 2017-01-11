@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "RoyalAcademy",
-    "currentPage": "index.html",
+    "currentPage": "Facebook.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.9.2",
-    "uniqCompNum": 87,
+    "uniqCompNum": 92,
     "versionPublish": "3.9.2",
     "publishType": "github",
     "publishPath": "file:///C:/Temp/RoyalLearningAcademy"
@@ -1531,7 +1531,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/royallearningacademy-blue-600x337-890.jpg",
+              "src": "@PROJECT_PATH@/assets/images/royallearningacademy-blue-600x337-891.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -2752,6 +2752,380 @@
           "_customCSS": "#slider {\n  width: 100%;\n  height: 200px;\n  overflow: hidden;\n    color: #FFF;\n}\n.slides {\n  position: relative;\n  margin: 0;\n  padding: 0;\n}\n.slide {\n  position: absolute;\n  list-style-type: none;\n  text-align: center;\n  width: 100%;\n  height: 100px;\n  top: 0;\n  left: 0;\n}\n\n\n\n.card-subtitle {\n\tcolor: #bcbcbc;\n}\n.iconbox {\n\tbackground-color: #2b4280;\n\tborder-color: #2b4280;\n}\n.rcorners1 {\n    border-radius: 150px;\n    width: 300px;\n}\n\n\n\n",
           "_customTemplate": true,
           "_anchor": "features4-2d"
+        }
+      ]
+    },
+    "Facebook.html": {
+      "settings": {
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "<script\n  src=\"https://code.jquery.com/jquery-3.1.1.min.js\"\n  integrity=\"sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=\"\n  crossorigin=\"anonymous\"></script>",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": "wowslider",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "wowslider",
+          "_params": {
+            "customSize": false,
+            "customWidth": "1600",
+            "customHeight": "1080",
+            "size": "800x600",
+            "slides": [
+              {
+                "src": "@PROJECT_PATH@/assets/images/banner-1-2000x1500-22.jpg",
+                "active": true,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/banner-1-2000x1500-22-800x600-22.jpg",
+                "title": "title 1",
+                "text": "text 1",
+                "tooltip": "@PROJECT_PATH@/assets/images/banner-1-2000x1500-22-85x48-85.jpg"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/banner-2-2000x1500-72.jpg",
+                "active": false,
+                "link": true,
+                "linkUrl": "admissions.html",
+                "image": "@PROJECT_PATH@/assets/images/banner-2-2000x1500-72-800x600-19.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/banner-2-2000x1500-72-85x48-59.jpg"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/banner-3-2000x1500-76.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/banner-3-2000x1500-76-800x600-66.jpg",
+                "title": "title 3",
+                "text": "text 3",
+                "tooltip": "@PROJECT_PATH@/assets/images/banner-3-2000x1500-76-85x48-79.jpg"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/banner-4-2000x1500-53.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/banner-4-2000x1500-53-800x600-65.jpg",
+                "title": "title 3",
+                "text": "text 3",
+                "tooltip": "@PROJECT_PATH@/assets/images/banner-4-2000x1500-53-85x48-88.jpg"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/banner-5-2000x1500-56.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/banner-5-2000x1500-56-800x600-65.jpg",
+                "title": "title 3",
+                "text": "text 3",
+                "tooltip": "@PROJECT_PATH@/assets/images/banner-5-2000x1500-56-85x48-7.jpg"
+              }
+            ],
+            "theme": "luxury",
+            "bgColor": "#ffffff",
+            "animType": "turn",
+            "autoplay": true,
+            "paddingTop": "4",
+            "paddingBottom": "2",
+            "fullScreen": true,
+            "showBullets": true,
+            "timeout": 2,
+            "duration": 2,
+            "height": "600",
+            "width": "800",
+            "responsive": "1",
+            "showCaptions": false,
+            "captionsEffect": "slide",
+            "hideControls": false
+          },
+          "_anchor": "wowslider-2f",
+          "articleLayout": false
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_params": {
+            "showTitle": false,
+            "showText": false,
+            "showButtons": false,
+            "showArrow": false,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/shutterstock-446313718-2000x1500-47.png",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
+          },
+          "title": "FULL SCREEN INTRO",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "_customHTML": "<a href=\"http://www.royalacademy.co.za/senses.html\">\n<section class=\"mbr-section mbr-section-hero mbr-section-full\">\n   \n    \n\n    <div class=\"mbr-table-cell\">\n\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"mbr-section col-md-10 col-md-offset-1 text-xs-center\">\n\n                 <img src=\"https://municipalities.blob.core.windows.net:443/housephotos/shutterstock_446313718.png\" style=\"width: 100%\">   \n                    \n                    \n                </div>\n            </div>\n        </div>\n    </div>\n\n    \n\n</section>\n     </a>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": ".mbr-section\n{\n    padding: 0px 0px 0px 0px !important;\n}\n.mbr-section-full\n{\n    height: 100% !important;\n}",
+          "_customTemplate": true,
+          "_anchor": "header1-2g"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-2h",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "2",
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": true
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/royallearningacademy-blue-600x337-89.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "http://www.royalacademy.co.za/TheAcademy.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "THE ACADEMY",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Education at the academy&nbsp;",
+          "button1": "<a data-app-btn=\"true\" href=\"TheAcademy.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/gallery-600x337-0.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "http://www.royalacademy.co.za/gallery.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "Gallery",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "Visit our gallery to take a virtual tour of our academy. ",
+          "button2": "<a data-app-btn=\"true\" href=\"gallery.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/gallery-600x337-56.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "gallery.html",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title3": "Gallery",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Visit our gallery to take a virtual tour of our academy.&nbsp;",
+          "button3": "<a data-app-btn=\"true\" href=\"gallery.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "media4": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features4",
+          "_params": {
+            "showImages": false,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": false,
+            "showButtons": false,
+            "iconsBgColor": "#2b4280",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2b4280",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "phone",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "black",
+              "family": "et-line"
+            }
+          },
+          "title1": "Bootstrap 4",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "edit",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "black",
+              "family": "et-line"
+            }
+          },
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "black",
+              "family": "et-line"
+            }
+          },
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "black",
+              "family": "et-line"
+            }
+          },
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "black",
+              "family": "et-line"
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "black",
+              "family": "et-line"
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_customHTML": "<section class=\"mbr-cards mbr-section mbr-section-nopadding\" style=\"background-color: rgb(43, 66, 128);\">\n\n    \n\n    <div class=\"mbr-cards-row row\">\n        <div class=\"mbr-cards-col col-xs-12 col-lg-4\" style=\"padding-top: 80px; padding-bottom: 80px;\">\n            <div class=\"container\">\n                <div class=\"card cart-block\">\n                    \n                    <div class=\"card-block\">\n<img src=\"https://municipalities.blob.core.windows.net:443/housephotos/oie_transparent.png\" style=\"width: 60%; \">\n                        \n                        \n                        \n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"mbr-cards-col col-xs-12 col-lg-4\" style=\"padding-top: 80px; padding-bottom: 80px; vertical-align: top;\">\n            <div class=\"container\">\n                <div class=\"card cart-block\">\n                    \n                    <div class=\"card-block\">\n\n      \n                        \n<p style=\"color: #FFFFFF; text-align: center;\">\n                                <strong>Royal Learning Academy</strong>\n</p>\n<p style=\"color: #FFF; text-align: center;\">   \nWe endeavor to create an environment that is conducive to growing learners.\n                            </p>\n\n\n                        <div id=\"slider\">\n  <ul class=\"slides\">\n    <li class=\"slide slide1\">\n<h4>Fair Treatment</h4>\n        <p>We treat every learner as a unique individual.</p>\n<p>\n    \"There can be no keener revelation of a society's soul than the way in which it treats its children.\" </p>\n <p style=\"font-size:11px !important;\">  Nelson Mandela, Former President of South Africa</p>\n     </li>\n    <li class=\"slide slide2\">\n        <h4>Individualized Attention</h4>\n            <p>Each child is given one on one attention.</p>\n<p>\n    \"Every child you encounter is a divine appointment.\" </p>\n<p style=\"font-size:11px !important;\">   Wess Stafford, President Emeritus of Compassion International</p>\n\n    </li>\n    <li class=\"slide slide3\">\n        <h4>Daily Quality Deposits</h4>\n            <p>We strive to give meaningful and quality input daily.</p>\n<p>\n    \"Each day of our lives we make deposits in the memory banks of our children.\" </p>\n <p style=\"font-size:11px !important;\">  Charles R. Swindoll, Evangelical Christian pastor </p>\n\n    </li>\n      <li class=\"slide slide4\">&nbsp;</li>\n\n  </ul>\n</div>\n                        \n                        \n                        \n                        \n                    </div>\n                </div>\n          </div>\n        </div>\n        <div class=\"mbr-cards-col col-xs-12 col-lg-4\" style=\"padding-top: 80px; padding-bottom: 80px;\">\n            <div class=\"container\">\n                <div class=\"card cart-block\">\n                    \n                    <div class=\"card-block\">\n                        <h4 class=\"card-title mbr-editable-content\" code-editable-id=\"34\">\n                            <img src=\"https://municipalities.blob.core.windows.net:443/housephotos/RoyalLearningAcademy_Blue.jpg\" style=\"width: 60%;\" class=\"rcorners1\">\n                        </h4>\n                        \n                        \n                        \n                    </div>\n                </div>\n            </div>\n        </div>\n        {JS_CODE_0}\n        \n        \n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script>\n            var width = 100;\nvar animation_speed = 700;\nvar time_val = 3000;\nvar current_slide = 1;\n\nvar $slider = $('#slider');\nvar $slide_container = $('.slides');\nvar $slides = $('.slide');\n\nvar interval;\n\n$slides.each(function(index){\n  $(this).css('left',(index*100)+'%');\n});\n\nfunction startSlider() {\n  interval = setInterval(function() {\n    $slide_container.animate({'left': '-='+(width+'%')}, animation_speed, function() {\n      if (++current_slide === $slides.length) {\n        current_slide = 1;\n        $slide_container.css('left', 0);\n      }\n    });\n  }, time_val);\n}\n\nstartSlider();\n        </script>"
+          ],
+          "_customCSS": "#slider {\n  width: 100%;\n  height: 200px;\n  overflow: hidden;\n    color: #FFF;\n}\n.slides {\n  position: relative;\n  margin: 0;\n  padding: 0;\n}\n.slide {\n  position: absolute;\n  list-style-type: none;\n  text-align: center;\n  width: 100%;\n  height: 100px;\n  top: 0;\n  left: 0;\n}\n\n\n\n.card-subtitle {\n\tcolor: #bcbcbc;\n}\n.iconbox {\n\tbackground-color: #2b4280;\n\tborder-color: #2b4280;\n}\n.rcorners1 {\n    border-radius: 150px;\n    width: 300px;\n}\n\n\n\n",
+          "_customTemplate": true,
+          "_styles": {
+            ".iconbox": {
+              "background-color": "#2b4280",
+              "border-color": "#2b4280"
+            }
+          },
+          "_anchor": "features4-2i"
         }
       ]
     }

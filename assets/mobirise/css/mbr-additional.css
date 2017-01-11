@@ -2029,3 +2029,44 @@ h6,
   border-radius: 150px;
   width: 300px;
 }
+#header1-2g .mbr-section {
+  padding: 0px 0px 0px 0px !important;
+}
+#header1-2g .mbr-section-full {
+  height: 100% !important;
+}
+#features4-2i .iconbox {
+  background-color: #2b4280;
+  border-color: #2b4280;
+}
+#features4-2i #slider {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  color: #FFF;
+}
+#features4-2i .slides {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#features4-2i .slide {
+  position: absolute;
+  list-style-type: none;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  left: 0;
+}
+#features4-2i .card-subtitle {
+  color: #bcbcbc;
+}
+#features4-2i .iconbox {
+  background-color: #2b4280;
+  border-color: #2b4280;
+}
+#features4-2i .rcorners1 {
+  border-radius: 150px;
+  width: 300px;
+}
